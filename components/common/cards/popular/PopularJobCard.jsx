@@ -18,6 +18,7 @@ const PopularJobCard = ({ item, selectedJob, handleCardPress}) => {
       }}
         resizeMode='contain'
         style={styles.logoImage}
+        
         />
       </TouchableOpacity>
       <Text style={styles.companyName} numberOfLines={1}>{item.employer_name}</Text>
